@@ -2,4 +2,4 @@
 datacampfa-crypto created by GitHub Classroom
 
 
-Dans la premiere sceance on a gere la partie logistique du projet
+Dans la première séance on a géré la partie logistique du projet

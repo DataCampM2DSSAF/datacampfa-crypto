@@ -8,5 +8,5 @@ On a aussi créé nos comptes sur Kaggle et github, ainsi les groupes sur chacun
 
 # Lundi 24 janvier
 
-Iota est decolere de tous les autres devises
+Iota est décorrélé de tous les autres devises
 

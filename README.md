@@ -21,4 +21,4 @@ De plus nous avons mis un plan de travail pour avancer dans les séances prochai
 
 ### 1 fevrier 
 Using the repository https://github.com/manthanthakker/BitcoinPrediction for inspiration. The repository showcases implementations of machine learning algorithms (Random Forest, Regression etc.) and Recurrent Neural Networks / Long Short Term Memory Networks for BitCoin prediction.
-Moreover, in our case, we identified that BitCoin is the most important currency, as the other digitatl currencies will follow its trends closely. Thus, having an accurate BitCoin prediction model should be a core part of the project.
+Moreover, in our case, we identified that BitCoin is the most important currency, as most of the other digitatl currencies will follow its trends closely. Thus, having an accurate BitCoin prediction model should be a core part of the project.

@@ -19,7 +19,7 @@ De plus nous avons mis un plan de travail pour avancer dans les séances prochai
 
 #Iota est décorrélé de tous les autres devises
 
-# 1 février 
+# Mardi  1 février 
 
-Using the repository https://github.com/manthanthakker/BitcoinPrediction for inspiration. The repository showcases implementations of machine learning algorithms (Random Forest, Regression etc.) and Recurrent Neural Networks / Long Short Term Memory Networks for BitCoin prediction.
-Moreover, in our case, we identified that BitCoin is the most important currency, as most of the other digitatl currencies will follow its trends closely. Thus, having an accurate BitCoin prediction model should be a core part of the project.
+En utilisant le repisotory https://github.com/manthanthakker/BitcoinPrediction pour s'inspirer,il présente des implémentations d'algorithmes d'apprentissage automatique (Random Forest, régression, etc.) et de réseaux neuronaux récurrents / réseaux à mémoire à long terme pour la prédiction de BitCoin. De plus, dans notre cas, nous avons identifié que BitCoin est la monnaie la plus importante, car la plupart des autres monnaies numériques suivront de près ses tendances. Ainsi, disposer d'un modèle de prédiction précis du BitCoin devrait être une partie essentielle du projet.
+

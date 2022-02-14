@@ -23,3 +23,27 @@ De plus nous avons mis un plan de travail pour avancer dans les séances prochai
 
 En utilisant le repisotory https://github.com/manthanthakker/BitcoinPrediction pour s'inspirer,il présente des implémentations d'algorithmes d'apprentissage automatique (Random Forest, régression, etc.) et de réseaux neuronaux récurrents / réseaux à mémoire à long terme pour la prédiction de BitCoin. De plus, dans notre cas, nous avons identifié que BitCoin est la monnaie la plus importante, car la plupart des autres monnaies numériques suivront de près ses tendances. Ainsi, disposer d'un modèle de prédiction précis du BitCoin devrait être une partie essentielle du projet.
 
+
+# Lundi 14 Février 
+
+Après avoir importer les données obtenues à partir de Kaggle de notre base de données qui contient des informations historiques de plusieurs cryptomonnaies comme Bitcoin et Ethereum, on a passé à l’étape de préparation et nettoyage des données.
+Donc nous avons dans un premier temps un fichier train.csv contenant ces variables:
+1- timestamp - A timestamp for the minute covered by the row.
+
+2- Asset_ID - ID code pour chaque cryptomonnaie
+
+3- Count - Le nombre de transactions qui ont eu lieu cette minute.
+
+4- Open - Le prix en USD au début de la minute.
+
+5- High - Le prix le plus élevé en USD pendant la minute.
+
+6- Low -  Le prix le plus bas en USD pendant la minute.
+
+7- Close - Le prix en USD à la fin de la minute.
+
+8- Volume -Le nombre d'unités de crypto-monnaies échangées pendant la minute.
+
+9- VWAP - Le prix moyen pondéré en fonction du volume pour la minute.
+
+10- Target - Rendements résiduels de 15 minutes.

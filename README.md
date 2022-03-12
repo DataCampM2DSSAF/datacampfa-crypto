@@ -27,7 +27,7 @@ En utilisant le repisotory https://github.com/manthanthakker/BitcoinPrediction p
 # Lundi 14 Février 
 Nous avons commencé cette séance par comprendre le diagramme de GANTT pour la gestion de notre projet et puis après avoir importer les données obtenues à partir de Kaggle de notre base de données qui contient des informations historiques de plusieurs cryptomonnaies comme Bitcoin et Ethereum, on a passé à l’étape de préparation et nettoyage des données.
 
-Nous allons utiliser les variables suivantes
+Le training set a les variables suivantes:
 
 1- timestamp - A timestamp for the minute covered by the row.
 
@@ -53,9 +53,6 @@ Données manquantes
 
 Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquantes. Il s'agit de moins de 2 pourcent pour ce genre de données manquantes et nous décidons de les éliminer.
 
-
-L’étape suivante c’était de convertir les timestamps en data time type pour pouvoir comparer et ensuite de normaliser les valeurs numériques comme Count, Open, High, Low, Close, Volume, and VWAP  pour aller de 0 à 1.
-Finalement on a afficher le plot de série temporelle de l'intervalle de temps pour chacun des Asset_ID, et la matrice de corrélation pour chaque actif pour voir les relations entre eux.
 
 # Lundi 21 Février 
 La tâche d'aujourd'hui c'est de traiter les valeurs manquantes, c'est plutôt dans la différence d'intervalle des timestamps . 

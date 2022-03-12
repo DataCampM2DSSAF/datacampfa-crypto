@@ -66,6 +66,14 @@ La variable timestamp indique l'heure à laquelle toutes les variables ont été
 
 Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquantes. Il s'agit de moins de 2 pourcent pour ce genre de données manquantes et nous décidons de les éliminer. En effet, des données manquantes apparaissent et nous devons résoudre cela.
 
+### Feature Engineering 
+
+Nous créons les comuns 'heure' et 'jour'. On normalise les variables numériques Count, Open, High, Low, Close, Volume et VWAP de 0 à 1.
+
+### Visualisation
+
+On a fait des 'time series' plots et une matrice de corrélation pour voir la relation entre chaque variable et la variable 'target'.
+
 ### Prediction
 
 On a entraîné un modèle RandomForestRegressor avec une partie des données. Les résultats sur les données de test sélectionnées étaient satisfaisants.

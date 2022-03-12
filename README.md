@@ -26,7 +26,9 @@ En utilisant le repisotory https://github.com/manthanthakker/BitcoinPrediction p
 
 # Lundi 14 Février 
 Nous avons commencé cette séance par comprendre le diagramme de GANTT pour la gestion de notre projet et puis après avoir importer les données obtenues à partir de Kaggle de notre base de données qui contient des informations historiques de plusieurs cryptomonnaies comme Bitcoin et Ethereum, on a passé à l’étape de préparation et nettoyage des données.
-Donc nous avons dans un premier temps un fichier train.csv contenant ces variables:
+
+Nous allons utiliser les variables suivantes
+
 1- timestamp - A timestamp for the minute covered by the row.
 
 2- Asset_ID - ID code pour chaque cryptomonnaie

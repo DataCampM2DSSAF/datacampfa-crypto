@@ -54,3 +54,7 @@ Finalement on a afficher le plot de série temporelle de l'intervalle de temps p
 # Lundi 21 Février 
 La tâche d'aujourd'hui c'est de traiter les valeurs manquantes, c'est plutôt dans la différence d'intervalle des timestamps . 
 Nous avons commencé par extraire chaque crytomonnaie avec les timestamps correspondants, les visualiser pour mieux détecter les différences et puis imputer chaque valeurs manquantes par la moyenne de la valeur d'avant et la valeur d'après.
+
+# Samedi 12 Mars
+
+On a sélectionné une partie des données comme un 'working batch' et on a entraîné un modèle RandomForestRegressor avec une partie des données. Les résultats sur les données de test sélectionnées étaient satisfaisants.

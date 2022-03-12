@@ -49,7 +49,11 @@ Nous allons utiliser les variables suivantes
 
 10- Target - Rendements résiduels de 15 minutes.
 
-Pour le traitement des valeurs manquantes, pour le moment cela ne représente que 1% du total de nos données donc on peut les éliminer sans problèmes mais pour la colonne Asset  bien qu’il n’ait pas de valeurs manquantes on doit penser à avoir le même intervalle de timestamp et donc de fournir d’autres données.
+Données manquantes
+
+Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquantes. Il s'agit de moins de 2 pourcent pour ce genre de données manquantes et nous décidons de les éliminer.
+
+
 L’étape suivante c’était de convertir les timestamps en data time type pour pouvoir comparer et ensuite de normaliser les valeurs numériques comme Count, Open, High, Low, Close, Volume, and VWAP  pour aller de 0 à 1.
 Finalement on a afficher le plot de série temporelle de l'intervalle de temps pour chacun des Asset_ID, et la matrice de corrélation pour chaque actif pour voir les relations entre eux.
 

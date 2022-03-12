@@ -49,7 +49,9 @@ Le training set a les variables suivantes:
 
 10- Target - Rendements résiduels de 15 minutes.
 
-Données manquantes
+
+
+#### Données manquantes
 
 Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquantes. Il s'agit de moins de 2 pourcent pour ce genre de données manquantes et nous décidons de les éliminer.
 

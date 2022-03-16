@@ -83,3 +83,4 @@ On a entraîné un modèle RandomForestRegressor avec une partie des données. L
 
 Nous avons ajouté un modèle de gradient boost. De plus, nous avons ajouté une fonction de "hyperparameter tunning" pour nos modèles et nous avons fait des graphiques de RMSE.
 
+La prochaine étape que nous choisissons consiste à prédire les devises à l'aide de réseaux de neurones. Nous pensons utiliser un RNN LSTM comme nous l'avons vu utilisé dans la prédiction BitCoin.

@@ -68,7 +68,7 @@ Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquan
 
 ### Feature Engineering 
 
-Nous créons les comuns 'heure' et 'jour'. On normalise les variables numériques Count, Open, High, Low, Close, Volume et VWAP de 0 à 1.
+Nous créons les variables 'hour' et 'day'. On normalise les variables numériques Count, Open, High, Low, Close, Volume et VWAP de 0 à 1.
 
 ### Visualisation
 

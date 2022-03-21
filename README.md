@@ -34,6 +34,8 @@ Nous avons commencé par extraire chaque crytomonnaie avec les timestamps corres
 
 
 
+# 10 - 22 Mars
+
 
 ## Description des données
 
@@ -64,7 +66,7 @@ Le training set a les variables suivantes:
 
 On a sélectionné une partie des données comme un 'working batch'. 
 
-La variable timestamp indique l'heure à laquelle toutes les variables ont été enregistrées. Tout d'abord, nous prenons une partie des données, examinons un actif individuel et convertissons l'horodatage en dates lisibles par l'humain.  Les données présentent des mises à jour des valeurs pour chaque minute, mais des valeurs manquantes apparaissent et nous devons résoudre ce problème. Nous résolvons cela localement, en régressant les valeurs pour chaque intervalle d'heure et en remplaçant les données manquantes. Nous créons les comuns 'heure' et 'jour'.
+La variable timestamp indique l'heure à laquelle toutes les variables ont été enregistrées. Tout d'abord, nous prenons une partie des données, examinons un actif individuel et convertissons l'horodatage en dates lisibles par l'humain.  Les données présentent des mises à jour des valeurs pour chaque minute, mais des valeurs manquantes apparaissent et nous devons résoudre ce problème. Nous résolvons cela localement, en utilisant la méthode panda 'reindex' pour chaque 'Asset_ID';  chaque intervalle de temps manquant est rempli avec le dernier échantillon pertinent. Nous créons les comuns 'heure' et 'jour'.
 
 
 Tout d'abord, nous examinons les variables avec des valeurs 'target'(10) manquantes. Il s'agit de moins de 2 pourcent pour ce genre de données manquantes et nous décidons de les éliminer. En effet, des données manquantes apparaissent et nous devons résoudre cela.

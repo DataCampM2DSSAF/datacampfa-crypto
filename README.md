@@ -27,6 +27,16 @@ En utilisant le repisotory https://github.com/manthanthakker/BitcoinPrediction p
 # Lundi 14 Février 
 Nous avons commencé cette séance par comprendre le diagramme de GANTT pour la gestion de notre projet et puis après avoir importer les données obtenues à partir de Kaggle de notre base de données qui contient des informations historiques de plusieurs cryptomonnaies comme Bitcoin et Ethereum, on a passé à l’étape de préparation et nettoyage des données.
 
+
+# Lundi 21 Février 
+La tâche d'aujourd'hui c'est de traiter les valeurs manquantes, c'est plutôt dans la différence d'intervalle des timestamps . 
+Nous avons commencé par extraire chaque crytomonnaie avec les timestamps correspondants, les visualiser pour mieux détecter les différences et puis imputer chaque valeurs manquantes par la moyenne de la valeur d'avant et la valeur d'après.
+
+
+
+
+## Description des données
+
 Le training set a les variables suivantes:
 
 1- timestamp - A timestamp for the minute covered by the row.
@@ -50,14 +60,7 @@ Le training set a les variables suivantes:
 10- Target - Rendements résiduels de 15 minutes.
 
 
-
-# Lundi 21 Février 
-La tâche d'aujourd'hui c'est de traiter les valeurs manquantes, c'est plutôt dans la différence d'intervalle des timestamps . 
-Nous avons commencé par extraire chaque crytomonnaie avec les timestamps correspondants, les visualiser pour mieux détecter les différences et puis imputer chaque valeurs manquantes par la moyenne de la valeur d'avant et la valeur d'après.
-
-# Samedi 12 Mars
-
-#### Données manquantes
+## Données manquantes
 
 On a sélectionné une partie des données comme un 'working batch'. 
 

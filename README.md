@@ -84,7 +84,6 @@ On a fait des 'time series' plots et une matrice de corrélation pour voir la re
 On a entraîné un modèle RandomForestRegressor avec une partie des données. Les résultats sur les données de test sélectionnées étaient satisfaisants.
 
 
-## Mercredi 16 Mars
 
 Nous avons ajouté un modèle de gradient boost. De plus, nous avons ajouté une fonction de "hyperparameter tunning" pour nos modèles et nous avons fait des graphiques de RMSE.
 

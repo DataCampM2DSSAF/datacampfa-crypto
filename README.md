@@ -87,8 +87,6 @@ On a entraîné un modèle RandomForestRegressor avec une partie des données. L
 
 Nous avons ajouté un modèle de gradient boost. De plus, nous avons ajouté une fonction de "hyperparameter tunning" pour nos modèles et nous avons fait des graphiques de RMSE.
 
-Évaluation aléatoire de la forêt avant tunning
-![error_rf_avant](https://user-images.githubusercontent.com/44533474/163691675-dacaea0c-2c1d-4cd9-bcda-d7069d886918.png)
 
 Tunning du paramètre de profondeur maximale
 ![max_depth](https://user-images.githubusercontent.com/44533474/163691697-a4ca4345-2e22-452c-a2a3-ec9c79c1bce3.png)
@@ -96,12 +94,16 @@ Tunning du paramètre de profondeur maximale
 Tunning du paramètre du nombre d'estimateurs
 ![n_estimators](https://user-images.githubusercontent.com/44533474/163691732-8d5ade00-17f9-4eb8-92b2-2e7234aeda7c.png)
 
-À la fin, nous obtenons le mse pour le modèle RandomForest
-![error_rf](https://user-images.githubusercontent.com/44533474/163691744-654c4dc5-8c7a-4b75-88ad-3a5d81557697.png)
 
 On fait les mêmes étapes pour XGboost et on obtient
 
-![eval_2_boost](https://user-images.githubusercontent.com/44533474/163691783-4a691f14-b67a-47b8-b4af-689c35811b20.png)
+|          Modèle          | RandomForest(max_depth=none, n_estim=100) | RandomForest(max_depth=5, n_estim=10) | XGBoost(max_depth=4, n_estim=20) | XGBoost(max_depth=5, n_estim=20) |
+|:------------------------:|:-:|:-:|:-:|:-:|
+|        MSE Train     | 0.00107 |  0.003329 |  0.003307 | 0.003290  |
+|        MSE Val       |  0.00749 |  0.00702 |  0.007016 | 0.00704 |
+
+
+
 
 
 

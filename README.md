@@ -110,3 +110,27 @@ y_t est la sortie à l'instant t
 
 Chaque neurone est assigné à un pas de temps fixé. La sortie de la couche cachée d'un pas de temps fait partie de l'entrée du pas de temps suivant.
 L'algorithme consiste à trouver les matrices de poids optimales U,V,W qui donne la meilleure prédiction ou minimise la fonction de perte J.
+
+Nous ferons plusieurs "train-test splits" donc on écrit une fonction: mysplit. On choisi 70% de données pour training, 20% pour validation et 10% pour test.
+Ensuite on va normaliser les données.
+
+LSTM: windowing
+
+Les modèles font un ensemble de prédictions basées sur une fenêtre d'échantillons consécutifs à partir des données
+
+La largeur (nombre de pas de temps) des fenêtres d'entrée et d'étiquette.
+The shift=offset between them.
+Which features are used as inputs, labels, or both.
+
+
+Exemple : pour faire une seule prédiction 24 heures dans le futur, compte tenu de 24 heures d'historique, vous pouvez définir une fenêtre comme celle-ci :
+
+![window](https://user-images.githubusercontent.com/44533474/163690113-661b944e-1e21-4f08-a9c8-90239d2fb001.png)
+
+
+*width* (le nombre de pas de temps): largeur des fenêtres d'entrée et d'étiquette.
+*shift* : décalage entre eux.
+
+
+Les données utilisées pour le training du modèle sont au format tf.data.Dataset qui est divisé en entrées et étiquettes. De même pour les données d'évaluation et de test.
+

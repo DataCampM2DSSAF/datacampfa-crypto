@@ -87,7 +87,22 @@ On a entraîné un modèle RandomForestRegressor avec une partie des données. L
 
 Nous avons ajouté un modèle de gradient boost. De plus, nous avons ajouté une fonction de "hyperparameter tunning" pour nos modèles et nous avons fait des graphiques de RMSE.
 
-La prochaine étape que nous choisissons consiste à prédire les devises à l'aide de réseaux de neurones. Nous pensons utiliser un RNN LSTM comme nous l'avons vu utilisé dans la prédiction BitCoin.
+Évaluation aléatoire de la forêt avant tunning
+![error_rf_avant](https://user-images.githubusercontent.com/44533474/163691675-dacaea0c-2c1d-4cd9-bcda-d7069d886918.png)
+
+Tunning du paramètre de profondeur maximale
+![max_depth](https://user-images.githubusercontent.com/44533474/163691697-a4ca4345-2e22-452c-a2a3-ec9c79c1bce3.png)
+
+Tunning du paramètre du nombre d'estimateurs
+![n_estimators](https://user-images.githubusercontent.com/44533474/163691732-8d5ade00-17f9-4eb8-92b2-2e7234aeda7c.png)
+
+À la fin, nous obtenons le mse pour le modèle RandomForest
+![error_rf](https://user-images.githubusercontent.com/44533474/163691744-654c4dc5-8c7a-4b75-88ad-3a5d81557697.png)
+
+On fait les mêmes étapes pour XGboost et on obtient
+
+![eval_2_boost](https://user-images.githubusercontent.com/44533474/163691783-4a691f14-b67a-47b8-b4af-689c35811b20.png)
+
 
 
 ## Neural Network Model
@@ -152,6 +167,8 @@ tf.keras.layers.LSTM
 La photo ci-dessous montre ce que sont la couche et l'unité (ou neurone), et l'image la plus à droite montre la structure interne d'une seule unité LSTM.
 
 ![lstm_det](https://user-images.githubusercontent.com/44533474/163690535-86f85f68-236f-432e-8d4c-227ee9cc1cd3.png)
+
+
 
 ### Indicateurs de performances
 On regarde le loss, MAS et MSE

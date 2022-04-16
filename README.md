@@ -162,8 +162,6 @@ Les unités sont choisies par validation croisée.
 
 Les réseaux LSTM sont un type de réseau RNN capable d'apprendre la dépendance d'ordre dans les problèmes de prédiction de séquence
 
-![lstm](https://user-images.githubusercontent.com/44533474/163690477-f095ecac-2845-42f0-85a2-29f08920f52f.png)
-tf.keras.layers.LSTM
 
 
 La photo ci-dessous montre ce que sont la couche et l'unité (ou neurone), et l'image la plus à droite montre la structure interne d'une seule unité LSTM.

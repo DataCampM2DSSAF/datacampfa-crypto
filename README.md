@@ -98,7 +98,7 @@ avons travaillé précédemment et nous nous occupons des données manquantes et
   Nous allons utiliser un réseau récurrent de neurones (RNN)
 
 ![Architecture](https://user-images.githubusercontent.com/44533474/163689477-a7570a43-e69c-4510-8f62-2b802ae68327.png)
-Référence d'image: keras.layers.SimpleRNN
+Référence d'images: https://keras.io/api/layers/recurrent_layers/
 
 U,V,W sont des matrices de paramètres
 
@@ -152,4 +152,24 @@ tf.keras.layers.LSTM
 La photo ci-dessous montre ce que sont la couche et l'unité (ou neurone), et l'image la plus à droite montre la structure interne d'une seule unité LSTM.
 
 ![lstm_det](https://user-images.githubusercontent.com/44533474/163690535-86f85f68-236f-432e-8d4c-227ee9cc1cd3.png)
+
+### Indicateurs de performances
+On regarde le loss, MAS et MSE
+
+### Le tuning de hyperparamètres
+
+On utilise la validation croisée K-fold avec un ensemble Holdout.
+
+K-fold for time series needs rolling basis: sklearn.model_selection.TimeSeriesSplit.
+
+Enfin on applique une régularisation L2.
+
+### Faire un update pour LSTM avec de nouvelles données 
+(ref: https://machinelearningmastery.com/update-neural-network-models-with-more-data/)
+
+### Multi-step prediction
+
+prédire toutes les caractéristiques sur tous les pas de temps de sortie.
+
+Pour le multi-step model, les données d'apprentissage sont  constituées d'échantillons horaires. Ici, les modèles apprendront à prédire 15 pas dans le futur, étant donné 4 pas du passé.
 

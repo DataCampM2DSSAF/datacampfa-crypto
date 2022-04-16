@@ -108,3 +108,5 @@ h(t) sont les étas cachés:  h(t) = tanh (W* h(t-1)+ U(t))
 y_t est la sortie à l'instant t 
 
 
+Chaque neurone est assigné à un pas de temps fixé. La sortie de la couche cachée d'un pas de temps fait partie de l'entrée du pas de temps suivant.
+L'algorithme consiste à trouver les matrices de poids optimales U,V,W qui donne la meilleure prédiction ou minimise la fonction de perte J.

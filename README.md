@@ -90,5 +90,21 @@ Nous avons ajouté un modèle de gradient boost. De plus, nous avons ajouté une
 La prochaine étape que nous choisissons consiste à prédire les devises à l'aide de réseaux de neurones. Nous pensons utiliser un RNN LSTM comme nous l'avons vu utilisé dans la prédiction BitCoin.
 
 
+## Neural Network Model
+
+Nous commençons cette section à l'identique par celle des modèles random forest et xgboost. À savoir, nous prenons le même ensemble de données avec lequel nous
+avons travaillé précédemment et nous nous occupons des données manquantes et de 'timestamp gaps'
+ 
+  Nous allons utiliser un réseau récurrent de neurones (RNN)
+
 ![Architecture](https://user-images.githubusercontent.com/44533474/163689477-a7570a43-e69c-4510-8f62-2b802ae68327.png)
+
+U,V,W sont des matrices de paramètres
+
+X_t est l'entrée à l'instant t
+
+h(t) sont les étas cachés:  h(t) = tanh (W* h(t-1)+ U(t))
+
+y_t est la sortie à l'instant t 
+
 

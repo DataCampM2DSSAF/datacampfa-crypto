@@ -98,6 +98,7 @@ avons travaillé précédemment et nous nous occupons des données manquantes et
   Nous allons utiliser un réseau récurrent de neurones (RNN)
 
 ![Architecture](https://user-images.githubusercontent.com/44533474/163689477-a7570a43-e69c-4510-8f62-2b802ae68327.png)
+Référence d'image: keras.layers.SimpleRNN
 
 U,V,W sont des matrices de paramètres
 
@@ -133,4 +134,22 @@ Exemple : pour faire une seule prédiction 24 heures dans le futur, compte ten
 
 
 Les données utilisées pour le training du modèle sont au format tf.data.Dataset qui est divisé en entrées et étiquettes. De même pour les données d'évaluation et de test.
+
+#### Design du modèle
+Couche LSTM avec 20 unités internes
+
+Couche dense à 2 unités. Les modèles denses sont traités à chaque pas de temps indépendamment.
+
+Les unités sont choisies par validation croisée.
+
+
+Les réseaux LSTM sont un type de réseau RNN capable d'apprendre la dépendance d'ordre dans les problèmes de prédiction de séquence
+
+![lstm](https://user-images.githubusercontent.com/44533474/163690477-f095ecac-2845-42f0-85a2-29f08920f52f.png)
+tf.keras.layers.LSTM
+
+
+La photo ci-dessous montre ce que sont la couche et l'unité (ou neurone), et l'image la plus à droite montre la structure interne d'une seule unité LSTM.
+
+![lstm_det](https://user-images.githubusercontent.com/44533474/163690535-86f85f68-236f-432e-8d4c-227ee9cc1cd3.png)
 

@@ -136,10 +136,6 @@ LSTM: windowing
 
 Les modèles font un ensemble de prédictions basées sur une fenêtre d'échantillons consécutifs à partir des données
 
-La largeur (nombre de pas de temps) des fenêtres d'entrée et d'étiquette.
-The shift=offset between them.
-Which features are used as inputs, labels, or both.
-
 
 Exemple : pour faire une seule prédiction 24 heures dans le futur, compte tenu de 24 heures d'historique, vous pouvez définir une fenêtre comme celle-ci :
 

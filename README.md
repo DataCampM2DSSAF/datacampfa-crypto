@@ -109,7 +109,7 @@ On fait les mêmes étapes pour XGboost et on obtient
 
 ## Neural Network Model
 
-Nous commençons cette section à l'identique par celle des modèles random forest et xgboost. À savoir, nous prenons le même ensemble de données avec lequel nous
+Nous commençons cette section pareil comme pour les modèles random forest et xgboost. À savoir, nous prenons le même ensemble de données avec lequel nous
 avons travaillé précédemment et nous nous occupons des données manquantes et de 'timestamp gaps'
  
   Nous allons utiliser un réseau récurrent de neurones (RNN)

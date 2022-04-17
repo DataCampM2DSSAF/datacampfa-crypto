@@ -97,7 +97,7 @@ Tunning du paramètre du nombre d'estimateurs
 
 On fait les mêmes étapes pour XGboost et on obtient
 
-|         Score \ Modèle       | RandomForest(max_depth=none, n_estim=100) | RandomForest(max_depth=5, n_estim=10) | XGBoost(max_depth=4, n_estim=20) | XGBoost(max_depth=5, n_estim=20) |
+|              | RandomForest(max_depth=none, n_estim=100) | RandomForest(max_depth=5, n_estim=10) | XGBoost(max_depth=4, n_estim=20) | XGBoost(max_depth=5, n_estim=20) |
 |:------------------------:|:-:|:-:|:-:|:-:|
 |        MSE Train     | 0.00107 |  0.003329 |  0.003307 | 0.003290  |
 |        MSE Val       |  0.00749 |  0.00702 |  0.007016 | 0.00704 |

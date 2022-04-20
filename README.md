@@ -186,3 +186,10 @@ prédire toutes les caractéristiques sur tous les pas de temps de sortie.
 
 Pour le multi-step model, les données d'apprentissage sont  constituées d'échantillons horaires. Ici, les modèles apprendront à prédire 15 pas dans le futur, étant donné 4 pas du passé.
 
+
+
+|              |  RandomForest | XGBoost | LSTM | 
+|:------------------------:|:-:|:-:|:-:|:-:|
+|        MSE Train     | 0.003329 |  0.003290 |  0.0034 | 
+|        MSE Val       |  0.00702|  0.00704 |  0.0035 | 
+

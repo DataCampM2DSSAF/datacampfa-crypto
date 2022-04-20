@@ -15,9 +15,9 @@ De plus nous avons mis un plan de travail pour avancer dans les séances prochai
 
 2- Étudier et traiter les valeurs manquantes
 
-3- Implémenter un modèle de prédiction: GARCH
+3- Implémenter un modèle de prédiction(simpliste) de machine learning: Random Forest et XGboost
 
-#Iota est décorrélé de tous les autres devises
+4- Implémenter un modèle plus complexe de deep learning: RNN- LSTM
 
 # Mardi  1 février 
 

@@ -189,7 +189,7 @@ Pour le multi-step model, les données d'apprentissage sont  constituées d'éch
 
 
 |              |  RandomForest | XGBoost | LSTM | 
-|:------------------------:|:-:|:-:|:-:|:-:|
+|:------------------------:|:-:|:-:|:-:|
 |        MSE Train     | 0.003329 |  0.003290 |  0.0034 | 
 |        MSE Val       |  0.00702|  0.00704 |  0.0035 | 
 
